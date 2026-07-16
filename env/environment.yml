@@ -1,0 +1,33 @@
+name: pyflo
+channels:
+  - conda-forge
+dependencies:
+
+  - python=3.12
+  - pip
+  - cmake
+  - swig
+  - c-compiler
+  - cxx-compiler
+
+  - numpy=1.26
+  - pandas=2.3
+  - scipy=1.14
+  - geopandas=1.1
+  - shapely=2.1
+  - fiona=1.10
+  - pyproj=3.6
+  - rasterio=1.4
+  - rasterstats
+  - contextily
+  - matplotlib-base=3.9
+  - seaborn=0.13
+
+  - flopy=3.7
+  - modflowapi=0.2
+  - typer
+
+  - pip:
+      - "swmm-toolkit @ git+https://github.com/AustinFarnum/swmm-python.git@c5b804f156beec697d6959eaecae7218037790bb#subdirectory=swmm-toolkit"
+      - "pyswmm @ git+https://github.com/AustinFarnum/pyswmm.git@b15581fcce69e9d5ea4152d41ddaf9c27d994d5d"
+      - swmmio==0.7.0

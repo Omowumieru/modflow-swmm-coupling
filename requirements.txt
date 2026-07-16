@@ -1,0 +1,13 @@
+numpy
+pandas
+geopandas
+shapely
+flopy
+modflowapi
+pyswmm
+swmmio
+typer
+matplotlib
+seaborn
+fiona
+pyproj

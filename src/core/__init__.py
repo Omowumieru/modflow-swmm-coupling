@@ -1,0 +1,3 @@
+"""
+Core coupling functionality modules.
+""" 
